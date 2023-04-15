@@ -24,7 +24,7 @@ The temperature drop monitor script is designed to be scalable. To monitor addit
 
 ### Running the Script 24/7 ⏰
 
-To run the script continuously, you can set up a cron job or use a task scheduler, depending on your operating system. This will ensure the script runs every 15 minutes, 24/7, to monitor the temperature drops at the specified locations. Alternatively, you can use a third-party service like pm2 or forever to run the script continuously.
+To run the script continuously, you can set up a cron job or use a task scheduler, depending on your operating system. This will ensure the script runs every 15 minutes, 24/7, to monitor the temperature drops at the specified locations. Alternatively, you can use a third-party service like pm2 or to run the script continuously. Another option is to deploy the script to a cloud platform like AWS Lambda or Google Cloud Functions and schedule it to run every 15 minutes using a cron job or a similar scheduler.
 
 ## How to Run the Project 🚀
 
