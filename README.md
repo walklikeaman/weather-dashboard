@@ -18,6 +18,14 @@ The script is implemented with `async/await` to handle asynchronous API calls ef
 
 To run the Temperature Drop Monitor, you can execute the `temperature-drop-monitor.js` script using Node.js by running `node temperature-drop-monitor.js` in the terminal. The script is located in the root folder of the project.
 
+### Scalability 📈
+
+The temperature drop monitor script is designed to be scalable. To monitor additional locations, you can simply add their coordinates to the `locations` array. The script will then loop through all the locations and check for temperature drops at each one, making it easy to monitor more than 150 locations across the USA.
+
+### Running the Script 24/7 ⏰
+
+To run the script continuously, you can set up a cron job or use a task scheduler, depending on your operating system. This will ensure the script runs every 15 minutes, 24/7, to monitor the temperature drops at the specified locations. Alternatively, you can use a third-party service like pm2 or forever to run the script continuously.
+
 ## How to Run the Project 🚀
 
 1. Clone the repository and navigate to the project directory.
